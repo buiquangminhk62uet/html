@@ -1,0 +1,20 @@
+body{
+	background-color: ;
+	font-size: 150%;
+}
+
+h1{
+	color: blue;
+	font-family: verdana;
+	font-size: 300%;
+}
+
+p{
+	color: red;
+	font-family: courier;
+	font-size: 160%;
+	border: 2px solid green;
+	background-color:yellow;
+	padding: 20px;
+	margin: 50px;
+}
