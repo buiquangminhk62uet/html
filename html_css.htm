@@ -14,7 +14,7 @@
 		h1{
 			color: blue;
 			font-family: verdana;
-			font-size: 300%;
+			font-size: 100%;
 		}
 
 		#p01 {
@@ -45,6 +45,30 @@
 		
 		div {
 			background-image: url("C:\Users\ADMIN\Desktop\IMAGE\ilya-pavlov-87438.jpg");
+		}
+		
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 15px;
+		}
+		
+		table {
+			border-spacing: 15px;
+			width: 100%;
+		}
+		
+		th, td {
+			text-align: center;
+		}
+		
+		caption {
+			font-size: 150%;
+			color: red;
+		}
+		
+		ul {
+			list-style-type: disc;
 		}
 		
 	</style>
@@ -80,7 +104,64 @@
 		<br>
 		<br>
 		<img src="C:\Users\ADMIN\Desktop\IMAGE\Manh.jpg" alt="you" style="float:right;width:128px;height=72px;">
-		<br><br>
+		<br>
+		<br>
+		<p>a new paragraph</p>
+		<br>
+		<table>
+			<tr>
+				<th>Firstname</th>
+				<th>Lastname</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>Jill</td>
+				<td>Smith</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>Eve</td>
+				<td>Jackson</td>
+				<td>94</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th colspan="2">Contact</th>
+			</tr>
+			<tr>
+				<td>Minh Bui</td>
+				<td>0365631680</td>
+				<td>Xuan Thuy, Cau Giay</td>
+			</tr>
+		</table>
+		
+		<br>
+		
+		<table>
+			<caption>Mr.Minh</caption>
+			<tr>
+				<th>Name</th>
+				<th>Minh Bui</th>
+			</tr>
+			<tr>
+				<td rowspan="2">Contact</td>
+				<td>0365631680</td>
+			</tr>
+			<tr>
+				<td>Xuan Thuy</td>
+			</tr>
+		</table>
+		
+		<br>
+		
+		<ul>
+			<li>Web Application Development</li>
+			<li>Database Management Systems</li>
+			<li>Calculus 2</li>
+		</ul>
 		
 </body>
 </html>
